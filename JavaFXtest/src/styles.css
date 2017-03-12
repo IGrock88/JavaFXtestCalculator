@@ -1,0 +1,36 @@
+#display{
+	-fx-background-color: #90c0f3;
+	-fx-font-family: 'Rubik Mono One', sans-serif;
+	-fx-font-style: oblique;
+	-fx-font-weight: 900;
+	-fx-text-fill: #4d0606;
+}
+
+.button: hover{
+	-fx-background-color: #55eb0e;	
+	-fx-text-fill: #fff;	
+ 
+}
+
+.button: pressed{
+	-fx-background-color: #9af171;
+	-fx-border-color: #f14d00;
+    -fx-border-width: 2;
+    -fx-text-fill: #f14d00;
+	-fx-border-radius: 10%;
+
+}
+
+
+#buttonReset: hover{
+	-fx-background-color: #55eb0e;	
+	-fx-text-fill: #ff0000;
+}
+
+#buttonReset: pressed{
+	-fx-background-color: #ff0000;
+	-fx-border-color: #fff;
+    -fx-border-width: 2;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bolder;
+}
